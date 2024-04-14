@@ -1,0 +1,29 @@
+{% extends 'partials/base.html' %}
+{% block title %}All Prediction{% endblock %}
+
+{% block content  %}
+<div class="container">
+    <div class="row mt-4">
+        <div class="col-md-8 offset-md-2">
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">handle</th>
+                    <th scope="col">Tweet</th>
+                    <th scope="col">Prediction</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {% for data in predicted_tweets %}
+                  <tr>
+                    <th scope="row">{{ data.handle }}</th>
+                    <td>{{ data.Tweet }}</td>
+                    <td>{{ data.predictions }}</td>
+                  </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+        </div>
+    </div>
+</div>
+{% endblock %}
