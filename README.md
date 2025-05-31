@@ -1,8 +1,11 @@
 #SentimentAnalysis #RealTimeAnalytics #NLP #MachineLearning #TextClassification #BrandMonitoring #CustomerExperience #MarketResearch #DataScience #GoogleColab #Django #NLTK #ScikitLearn
+
 Sentiment Analysis Application
+
 A streamlined Sentiment Analysis web app built with Django, leveraging Python's NLTK and Scikit-learn for advanced NLP and machine learning. The core ML models were developed and validated in Google Colab for efficient prototyping and reproducibility.
 
 Overview
+
 Real-time sentiment classification: Instantly categorizes text as positive or negative.
 
 NLP-driven preprocessing: Uses NLTK for tokenization and text cleaning.
